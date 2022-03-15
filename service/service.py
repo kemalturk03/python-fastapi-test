@@ -1,6 +1,6 @@
 from fastapi import HTTPException, Path
 from fastapi import FastAPI
-from sample_data import students
+from core.sample_data import students
 
 app = FastAPI()
 apiBaseUrl = "/api/v1"

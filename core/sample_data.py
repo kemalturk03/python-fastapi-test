@@ -1,5 +1,5 @@
 from typing import List
-from models import Gender,Student
+from model.models import Gender,Student
 
 
 students: List[Student]= [
