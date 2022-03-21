@@ -1,10 +1,7 @@
-from sqlalchemy import Column,Integer,String
-from enum import Enum
-from database import Base 
+#models file is for storing sqlalchemy models or database models.
 
-class Gender(str,Enum):
-    male: str="male"
-    female: str="female"
+from sqlalchemy import Column,Integer,String
+from database import Base 
 
 class Student(Base):
     __tablename__ = "students"
